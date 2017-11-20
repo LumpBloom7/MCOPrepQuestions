@@ -15,12 +15,16 @@ Input format
 ---------------------
     c 14 
     v 55 
+    ...
+    ...
     a 25 
 
 Output format
 -----------------------
     87.92 units 
-    696909.97 units^3 
+    696909.97 units^3
+    ...
+    ...
     1963.495 units^2 
 
 **NOTE: It does not need to be 100 % precise.**
