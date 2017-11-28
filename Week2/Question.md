@@ -18,12 +18,16 @@ Example
     17
     Johnny
     19
-    EnglishJohnny02EnglishJohnny02EnglishJohnny02
+    English
     Johnny
     22
     23
     Johnny
     English
+    ...
+    ...
+    59
+    EnglishJohnny06EnglishJohnny06EnglishJohnny06
     ...
 
 Required knowledge
