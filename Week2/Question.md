@@ -41,4 +41,4 @@ BONUS
 
 Required knowledge
 ---------------------------------
-```cin```, ```cout```, ```while```, basic arithmetics, ```if-else```, ```for``  `
+```cout```, ```while```, basic arithmetics, ```if-else```, ```for``  `
