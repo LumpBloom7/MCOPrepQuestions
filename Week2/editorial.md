@@ -45,7 +45,7 @@ In each of the conditionals, we could either change the outcome of the outputted
 
 Bonus questions
 ---------------
-The first bonus questions maybe misleading seeing as most code should be able to any range of numbers already. Except that 0 will always be 0 after devided by 3,5 and 20. And unless I'm living in an alternate reality, 0 is definitely not a multiple of those three numbers. So you only have to make an extra condition like ```number!=0```.
+The first bonus questions maybe misleading seeing as most code should be able to any range of numbers already. Except that 0 modulo 3,5 and 20 will always be 0, messing up the output. And unless I'm living in an alternate reality, 0 is definitely not a multiple of those three numbers. So you only have to make an extra condition like ```number!=0```.
 
 The second one is the harder challenge. You would need to have an extra counter which starts at 3 that increments each time the number is a multiple of 3,5 and 20. Along with a different for loop which relies on this counter to output "EnglishJohnny*NumberInReverse" the way the challenge asks for.
 
