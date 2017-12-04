@@ -1,6 +1,6 @@
 Cable Cars
 ===========
-Time limit per test: 2 Seconds
+Time limit per test: 2 Seconds  
 Memory limit per test: 64 MB
 
 Problem Statement
