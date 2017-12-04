@@ -64,6 +64,17 @@ For the first sample, the second, third and fifth hills are suitable. The first 
 
 For the second sample, you can check that all hills are suitable.
 
+Skills required
+------------
+1. Standard IO
+2. Array/Vector
+3. Common sense
+4. Some algorithms
+5. Determination
+6. Passion
+7. Focus
+8. Basic computer typing skills
+
 Question source
 ----------------
 
