@@ -1,5 +1,8 @@
 Cable Cars
 ===========
+Time limit per test: 2 Seconds
+Memory limit per test: 64 MB
+
 Problem Statement
 --------------
 Mr. MCO is a manager in a cable car company. He plans to build a cable car line between two of the hills.
