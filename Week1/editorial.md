@@ -18,12 +18,12 @@ We of course prepare our variables. We know that we have to use **3.14** as pi i
 A ```while(true)``` loop is suffice for keeping the program running indefinately. We then grab the input using ```std::cout >> *CHAR* >> *RADIUS*;```. After that we could start the calculation.
 
 Two choices are available to determine the type of calculation to be performed, one is to use a ```switch``` statement or with an ```if-else``` conditional. I used ```switch``` in the answers, but ```if-else``` can also be used without any downsides as shown below.
-
-    if( t == 'c' ) { std::cout << ( 2 * pi * r ) << std::endl; }
-    else if ( t == 'a' ) { std::cout << ( pi * pow( r, 2 ) ) << std::endl; }
-    else if ( t == 'v' ) { std::cout << ( 4 * pi * ( pow( r, 3 ) / 3 ) ) << std::endl; }
-    else { std::cout << "Invalid Argument" << std::endl; }
-
+```C++
+if( t == 'c' ) { std::cout << ( 2 * pi * r ) << std::endl; }
+else if ( t == 'a' ) { std::cout << ( pi * pow( r, 2 ) ) << std::endl; }
+else if ( t == 'v' ) { std::cout << ( 4 * pi * ( pow( r, 3 ) / 3 ) ) << std::endl; }
+else { std::cout << "Invalid Argument" << std::endl; }
+```
 The mathematical formula can be found on most search engines so I guess I do not need to explain much. The only problem is that parentheses are really important in the math formulae.
 
 ```( 4 * pi * ( pow( r, 3 ) / 3 ) )``` != ```( 4 * pi * pow( r,3 ) / 3  )```
