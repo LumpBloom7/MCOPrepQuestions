@@ -21,7 +21,7 @@ First, we find the position of the value N in the array in O(N) time by simply i
 
 For each element of the array, iterate through all elements from it to the position of the value N. Check whether each element is smaller than the current element. If this is true, increment the answer by 1.
 
-This solution takes O(N2) time.
+This solution takes O(N<sup>2</sup>) time.
 
 ```C++
 //Receive input and place in vector/array
@@ -47,7 +47,7 @@ Subtask 2
 ------------
 Additional Constraints : None
 
-An O(N2) solution cannot pass here. The trick is that we avoid iterating through all elements between N and the current element every time we want to determine if the current element can be an ending position.
+An O(N<sup>2</sup>) solution cannot pass here. The trick is that we avoid iterating through all elements between N and the current element every time we want to determine if the current element can be an ending position.
 
 Start from the position which contains N. Iterate from that position to the right. Maintain the maximum value of the elements visited so far (excluding N). To determine if the current element can be an endpoint, we just have to check whether it is larger than the maintained maximum value in O(1) time.
 
